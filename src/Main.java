@@ -12,5 +12,6 @@ public class Main {
         String resultMessage = String.format("A temperatura de %.1f Celsius é equivalente a %.2f Fahrenheit ou %d Fahrenheit sem casa decimais", celsiusTemperature, fahrenheitTemperature, fahrenheitTemperatureNoDecimals);
 
         System.out.println(resultMessage);
+        scanner.close();
     }
 }
